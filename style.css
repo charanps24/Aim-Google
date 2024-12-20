@@ -1,12 +1,13 @@
 body {
-    color: white;
+    color: rgb(17, 16, 16);
+    font-size: large;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Navigation Bar */
 
 #home {
-  background-color: rgb(5, 65, 125);
+  background-color: rgb(176, 176, 179);
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -17,7 +18,7 @@ body {
  }
 
 .topmenu {
-  color: lightgray;
+  color: rgb(17, 15, 15);
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -63,7 +64,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #141214;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -97,7 +98,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #232025;
 }
 
 #about-me p {
@@ -121,8 +122,22 @@ h2 {
   flex-flow: wrap;
 }
 
+.vitte {
+    font-size: 800ps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-style: initial;
+    
+}
+.vitte:hover {
+    color: rgb(12, 8, 204);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 89px;
+
+}
 .skill {
-  border: 1px solid gray;
+  border: 1px solid rgb(15, 15, 15);
   color: black;
   display: block;
   border-radius: 6px;
@@ -131,7 +146,7 @@ h2 {
   padding: 10px;
   width: 2in;
   font-size: 20px;
-  box-shadow: 0 3px 10px gray;
+  box-shadow: 0 3px 10px rgb(7, 7, 7);
 }
 
 .skill img {
@@ -150,7 +165,7 @@ h2 {
 .skills p {
   align-items: center;
   font-size: 15px;
-  color: gray;
+  color: rgb(10, 9, 9);
   margin-block-start: 5px;
   margin-block-end: 5px;
 } 
@@ -219,7 +234,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #0d0d0e;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
